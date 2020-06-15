@@ -7,9 +7,13 @@
 * {
   box-sizing: border-box;
 }
-
+.main{
+  background-color: blueviolet;
+  padding:5px 30px;
+  margin: 10px;
+}
 body {
-  background-color: #f7f7f7;
+  background-color: #c3c0ee;
   display: flex;
   flex-direction: column;
   align-items: center;
