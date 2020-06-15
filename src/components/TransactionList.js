@@ -5,7 +5,7 @@ export const TransactionList = () => {
     const {transactions} = useContext(GlobalContext);
     const {deleteTransaction} = useContext(GlobalContext);
 
-    //const sign = transactions.amount < 0 ? '-' : '+' ; 
+    
     //this a variable for show list
     const [a, setA] = useState("hidhis");
     //this b variable for hidding the show button
